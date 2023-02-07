@@ -13,7 +13,7 @@ export function connect() {
   return new Promise<FinishedAuthData>((resolve, reject) => {
     showConnect({
       appDetails: {
-        name: "Next Stacks",
+        name: "Cryptopear",
         icon: window.location.origin + "/vercel.svg",
       },
       onFinish: resolve,

@@ -22,7 +22,10 @@ export default function Home() {
           Decentralized peer-to-peer transactions of assets and services using the PearCoin cryptocurrency
         </p>
 
-        <button className="rounded-lg bg-blue-600 px-4 py-1.5 text-sm font-medium text-white" onClick={doConnect}>
+        <button
+          className="rounded-lg bg-blue-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-blue-600/80"
+          onClick={doConnect}
+        >
           Connect
         </button>
       </div>

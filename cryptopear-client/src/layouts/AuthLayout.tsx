@@ -16,12 +16,12 @@ export function AuthLayout({ children, title, description }: Props) {
   return (
     <>
       <Head>
-        <title>{title ?? "Cryptopear Client"}</title>
+        <title>{title ?? "Cryptopear"}</title>
         <meta
           name="description"
           content={
             description ??
-            "Cryptopear Client - Decentralized peer-to-peer transactions of assets and services using the PearCoin cryptocurrency"
+            "Cryptopear - Decentralized peer-to-peer transactions of assets and services using the PearCoin cryptocurrency"
           }
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
